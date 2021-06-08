@@ -1,0 +1,165 @@
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+main {
+     min-height: 100vh;
+}
+/* nav  -------------------- */
+
+.topnav {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.topnav-right {
+    margin-right: 20px;
+    float: right;    
+}
+
+.topnav a {    
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    padding-right: 10px;    
+    font-size: 14px;    
+}
+
+.topnav-right a {
+    padding-right: 20px;   
+}
+
+
+#app {
+    border: none;
+    font-size: 24px;
+    padding-right: 15px;
+    color: rgb(88, 88, 88);
+    vertical-align:middle;
+
+}
+
+#signin {
+    text-align: center;
+    color: white;
+    padding: 0 12px; 
+    line-height: 28px;   
+    border-radius: 2px;
+}
+
+/* nav ends ----------------- */
+
+
+/* logo ---------------------- */
+.logo {
+    padding-top: 190px;
+    text-align: center;
+
+}
+
+.logo img {
+    height: 92px;
+    width: 272px;
+    margin: 0 auto;
+}
+
+/* logo  ends  ------------------ */
+
+
+/* search bar  ---------------------- */
+.bar {    
+    text-align: center;
+}
+
+.search-bar {
+    border-radius: 25px;
+    width: 482px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 30px;  
+    margin-bottom: 30px; 
+    border:1px solid #dfe1e5;
+    padding: 5px;
+    outline: none;
+    height: 44px;
+    text-align: center;
+}
+
+.search-bar:focus {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.search-bar:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+#search-icon {
+    color: #9AA0A6;
+    font-size: 19px;  
+    margin-top: 6px;
+    padding: 1px 5px 0px 5px;
+}
+
+.input-search {
+    width: 400px;
+    border: none;
+    padding: 5px;
+}
+
+.input-search:focus {
+    border: none;
+    outline-width: 0;
+}
+
+.voice{
+    height:20px;
+    position:relative;
+    top:4px;
+    left:10px;
+  }
+
+.buttons {    
+    text-align: center;
+}
+
+.search-button {
+    border: none;
+    padding: 8px 14px 8px 14px;
+    font-size: 14px;
+    color: rgb(112, 111, 111);
+    border-radius: 4px;
+}
+
+#first-button {
+    margin-right: 7px;
+}
+
+.detail {
+    margin-top: 10px;
+}
+
+.detail p{
+    font-size: 14px;    
+    text-align: center;
+}
+
+footer {
+    border-top: 1px;
+    background-color: #f2f2f2;
+    line-height: 50px;
+    width: 100%;
+}
+
+.footer-left a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(107, 106, 106);
+    padding: 10px;
+}
+
+.footer-right {
+    margin-right: 20px;
+    float: right;    
+}
+
+/* search bar  ends ---------------------- */
